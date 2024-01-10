@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Car 2 Details - Car Rental</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Car Rental</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="car-details">
+        <div class="container">
+            <h2>Dacia Duster Details</h2>
+            <div class="car">
+                <img src="_vn_unique_grade_carrousel_main_1_small_grade_carrousel_1.png uri=https __ma.co.rplug.renault.png" alt="Dacia Duster">
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna ac justo posuere fermentum.</p>
+            </div>
+            
+            <h2>Reservation</h2>
+<form action="reservation_process.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="pickup-date">Pickup Date:</label>
+    <input type="date" id="pickup-date" name="pickup-date" required>
+
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" name="comments" rows="4"></textarea>
+
+    <input type="submit" value="Submit Reservation">
+</form>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Car Rental. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
